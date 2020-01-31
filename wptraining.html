@@ -2,10 +2,12 @@
    <head>
       <title>WP 101 Training material</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
       <style>
          main {
             max-width: 640px;
             margin: auto;
+            font-family: 'Roboto Slab', serif;
          }
          fieldset {
             border: solid 1px #000;
@@ -28,56 +30,64 @@
          <p>As you prepare to build a new website, we recommend you nail down a few key ideas to point your work in the right direction. Think about the big picture and try your best to do the following:</p>
          <p>Define your site's main purpose</p>
          <p>
-            <select name="purpose">
-               <option value="" disabled selected>Choose one</option>
-               <option value="course">Course</option>
-               <option value="portfolio">Portfolio</option>
-               <option value="assignment">Assignment</option>
-               <option value="program">Program</option>
-               <option value="department">Department</option>
-               <option value="event">Event</option>
-               <option value="other">Other</option>
+            <select>
+               <option disabled selected>Choose one</option>
+               <option>Course</option>
+               <option>Portfolio</option>
+               <option>Assignment</option>
+               <option>Program</option>
+               <option>Department</option>
+               <option>Event</option>
+               <option>Other</option>
             </select>
          </p>
          <p>Identify your target audience</p>
          <p>
-            <select name="audience">
-               <option value="" disabled selected>Choose one</option>
-               <option value="students">Students</option>
-               <option value="instructors">Instructor(s)</option>
-               <option value="colleagues">Colleagues</option>
-               <option value="applicants">Applicants</option>
-               <option value="hiring-managers">Hiring Managers</option>
-               <option value="attendees">Attendees</option>
-               <option value="other">Other</option>
+            <select>
+               <option disabled selected>Choose one</option>
+               <option>Students</option>
+               <option>Instructor(s)</option>
+               <option>Colleagues</option>
+               <option>Applicants</option>
+               <option>Hiring Managers</option>
+               <option>Attendees</option>
+               <option>Other</option>
             </select>
          </p>
          <p>Craft your message and vision</p>
          <p>[info box: Write a strong (but brief) tagline to avoid WordPress displaying the default line, "Just another WordPress site" (search engines flag and deprioritize such sites)]</p>
          <p>
-            <input name="tagline" type"text" placeholder="Enter your tagline">
+            <input type"text" placeholder="Enter your tagline">
          </p>
       </fieldset>
       <h2>Structure Your Information</h2>
          <p><em>The following QUIZ helps learners leverage core features according to best practices to future-proof their site architecture.</em></p>
-         <p>Demo ways to sketch a rough structure for your site. Draw from the "Card Sorting and Prototyping" kbase article and encourage users to read it in full, to learn how input from others can help them better organize their information. Then answer the following:</p>
-         
-         <hr>
-         
-         Q: What is the purpose of card sorting and prototyping exercises?
-A: Choose one
-To arrange information logically.
-To discover things visitors need and expect from your site.
-To trust suggestions, despite your own convictions.
-All of the above
-Demo how to outline a site's categories and tags (kbase article: Difference between categories and tags)
-Q: Which taxonomy is best used to label very specific terms and keywords?
-A: Choose one
-Categories
-Tags
-Media
-Plugins
-Demo how to decide on effective content areas (e.g. menus, submenus, header, footer, widgets)
+         <fieldset>
+            <legend>Quiz</legend>
+            <p>DEMO: There are various ways to sketch a rough structure for your site. Popular methods include card sorting and paper prototyping. Getting early input from others can save you from extra work or problems down the line. Web Publishing's <a href="#">Card Sorting and Paper Prototyping</a> knowledge base article explains how to get through this important step quickly. Read it, try it, and then answer the following:</p>
+            <p>What is the purpose of card sorting and prototyping exercises?</p>
+            <p>
+               <select>
+                  <option disabled selected>Choose one</option>
+                  <option>To arrange information logically</option>
+                  <option>To discover things visitors need and expect from your site</option>
+                  <option>To trust suggestions, despite your own convictions</option>
+                  <option>All of the above</option>
+               </select>
+            </p>
+            <p>DEMO: WordPress has automatic ways that it groups content and it also offers ways for you to group content how you see fit with customizable categories and tags. These breakdowns are officially referred to as "taxonomies" and the important differences between the two are covered in Web Publishing's <a href="#">Difference between categories and tags</a> article. Read it, try it, and then answer the following:</p>
+            <p>Which taxonomy is best used to label very specific terms and keywords?</p>
+            <p>
+               <select>
+                  <option disabled selected>Choose one</option>
+                  <option>Categories</option>
+                  <option>Tags</option>
+                  <option>Media</option>
+                  <option>Plugins</option>
+               </select>
+            </p>
+            <p>DEMO: WordPress is highly customizable but there are <em>norms</em> to consider so that you make your site simple to navigate. Arrange the options below to match interface features to their most effective uses.</p>
+            Menus, Submenus, Header, Footer, Widgets)
 Q: By default, the navigation menu initially displays every page?
 A: Choose one
 True
@@ -94,6 +104,7 @@ Category
 Tag
 Parent
 Author
+         </fieldset>
          <h2>Initiate Your Site & Input Your Assets</h2>
 ACTIVITY: Show users how to swap themes and ask them to try swapping themes themselves. Upload sample content, i.e. dummy images and Lorem Ipsum text, then evaluate how two or three different themes present your information and media, (get familiar with theme vs template; limitations amongst themes, nav level limits, etc.)
 Demo SSW steps (update "First Steps" kbase articles)
